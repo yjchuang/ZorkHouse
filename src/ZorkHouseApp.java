@@ -200,7 +200,7 @@ public class ZorkHouseApp {
 	}
 	
 	
-	private static void roomDescribe(String where, String stuff, String directions)
+	public static void roomDescribe(String where, String stuff, String directions)
 	{
 		System.out.println("You are in " + where);
 	
